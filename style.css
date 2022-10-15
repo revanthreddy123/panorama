@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background: #111;
+}
+
+.main-container .image-container {
+  /*flex: 1;*/
+  background: red;
+  height: 100%;
+
+  position: absolute;
+  width: 100%;
+}
+
+.main-container .text {
+  border-left: solid, 30px;
+  align-items: center;
+  padding-left: 20px;
+  width: 50vh;
+  max-height: 200vh;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.main-container h1 {
+  z-index: 100;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 16px 16px rgba(0, 0, 0, 0.9);
+}
+
+.main-container h2 {
+  color: white;
+  z-index: 100;
+  text-align: center;
+}
