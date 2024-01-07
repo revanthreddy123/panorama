@@ -152,7 +152,6 @@ body {
     padding: 0;
     height: 100%; /* Set height to 100% of the viewport height */
     background-image: url(tex4.jpg);
-    overflow: hidden; /* Hide overflow to prevent scrollbars */
 }
 
 .celestial-bodies {
