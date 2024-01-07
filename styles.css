@@ -134,7 +134,7 @@ p {
 
 /* Hero section styles */
 .hero {
-    overflow-y: auto; /* Enable vertical scrolling for the entire content */
+    overflow-y: 100%; /* Enable vertical scrolling for the entire content */
     height: 100%; /* Set height to 100% of the viewport height */
     display: flex;
     justify-content: center;
@@ -326,7 +326,7 @@ button:hover {
 
 
 .content-container {
-    overflow-y: auto; /* Enable vertical scrolling for the entire content */
+    overflow-y: 100%; /* Enable vertical scrolling for the entire content */
 }
 
 
