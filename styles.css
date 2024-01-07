@@ -156,6 +156,7 @@ body {
 }
 
 .celestial-bodies {
+    transform: translateZ(0);
     padding-left: 100px;
     position: absolute;
     top: 50%;
