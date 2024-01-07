@@ -47,8 +47,9 @@ function updatePageContent() {
         case 2:
             pageTitle.textContent = "About Me";
             pageDescription.innerHTML = `
+
             
-                <div class="details-box left-box">
+                <div class="details-box" id="box1">
                     <h2>Personal Details</h2>
                     <p>Name: S Revanth Reddy</p>
                     <p>Date of Birth: 11 February 1996</p>
@@ -59,7 +60,7 @@ function updatePageContent() {
                     <p>Phone: +91 73066 66643</p>
                 </div>
                 
-                <div class="details-box left-box">
+                <div class="details-box" id="box2">
                     <h2>Education</h2>
                     <p>SSC: 2011 - 90%</p>
                     <p> </p>
@@ -71,7 +72,7 @@ function updatePageContent() {
                 </div>
 
 
-                <div class="details-box left-box">
+                <div class="details-box" id="box3">
                     <h2>Work Experience</h2>
                     <p>2017-2018: Architecture Internship - DLF pvt ltd. - Chennai</p>
                     <p></p>
@@ -80,6 +81,8 @@ function updatePageContent() {
                     <p>2020-present: Frontend Developer and 3d Modelling - Neo Frames - Hyderabad</p>
                     
                 </div>
+
+                
                 
             `;
             backBtn.style.display = "inline-block"; // Show the back button
@@ -98,7 +101,7 @@ function updatePageContent() {
 
 
 
-                <div class="details-box left-box">
+                <div class="details-box">
     <h2>Softwares</h2>
     <p><img src="photoshop-logo.png" alt="Photoshop Logo"> Photoshop</p>
     <p><img src="figma-logo.png" alt="Figma Logo"> Figma</p>
@@ -108,7 +111,7 @@ function updatePageContent() {
 </div>
 
 
-<div class="details-box right-box">
+<div class="details-box">
             <h2>Website Links</h2>
             <p><a href="http://www.williamclarence.co.in/" target="_blank">http://www.williamclarence.co.in/</a></p>
             <p><a href="https://revanthreddy123.github.io/neoframes/" target="_blank">https://revanthreddy123.github.io/neoframes/</a></p>
