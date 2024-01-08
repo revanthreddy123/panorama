@@ -17,6 +17,7 @@ body, html {
 .download-btn {
     display: inline-block;
     padding: 10px 20px;
+    margin-right: 20px;
     margin-top: 20px;
     background-color: transparent;
     color: #fff;
@@ -55,7 +56,7 @@ body, html {
 
 /* Common styles for all sections */
 .content {
-    
+    margin-top: 250px;
     padding-bottom: 10px;
     text-align: center;
     color: #fff;
@@ -63,15 +64,14 @@ body, html {
     animation: floatAnimation 1s infinite alternate ease-in-out; /* Add floating animation */
 }
 .content1 {
-    padding-top: 250px;
-    text-align: center;
+    text-align: right;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
     animation: floatAnimation 1s infinite alternate ease-in-out; /* Add floating animation */
 }
 .content2 {
     position: absolute;
-    padding-top: 100px;
+    margin-top: 300px;
     text-align: center;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
@@ -136,11 +136,11 @@ p {
 
 /* Hero section styles */
 .hero {
-    overflow-y: auto; /* Enable vertical scrolling for the entire content */
+   
     height: 100%; /* Set height to 100% of the viewport height */
     display: flex;
     justify-content: center;
-    align-items: center;
+   
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), rgba(0, 0, 0, 0.2); /* Gradient for enhanced visibility */
 }
 
@@ -243,11 +243,7 @@ button:hover {
 
 
 
-.slideshow {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-}
+
 
 .details-box {
    
@@ -351,6 +347,7 @@ button:hover {
 #box1 { animation-delay: 0s; }
 #box2 { animation-delay: 5s; }
 #box3 { animation-delay: 10s; }
+
 /* Add more rules for additional boxes */
 
 /* Keyframes for fade-in animation */
@@ -361,10 +358,12 @@ button:hover {
 }
 
 /* Apply fade-in-out animation to each box */
-.details-box:nth-child(1) { animation: fadeInOut 10s forwards; }
-.details-box:nth-child(2) { animation: fadeInOut 10s 5s forwards; }
-.details-box:nth-child(3) { animation: fadeInOut 10s 10s forwards; }
+.details-box:nth-child(1) { animation: fadeInOut 5s forwards; }
+.details-box:nth-child(2) { animation: fadeInOut 5s 10s forwards; }
+.details-box:nth-child(3) { animation: fadeInOut 10s 10s forwards infinite; }
 /* Add more rules for additional boxes */
+
+
 
 
 
@@ -372,7 +371,8 @@ button:hover {
         position: absolute;
         width: 220px; /* Adjust the width as needed */
         height: 280px;
-        align-self: center;
+        float: left;
+        
 
         opacity: 0;
     transition: opacity 1s ease-in-out;
@@ -415,7 +415,12 @@ button:hover {
         font-size: 0.8em;
     }
     
+    .slideshow {
+        position: center;
+        float: left;
 
+        align-items: left;
+    }
 
 
 

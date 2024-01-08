@@ -42,11 +42,16 @@ function updatePageContent() {
             backBtn.style.marginTop = "150px"; // Show the back button
             nextBtn.style.marginTop = "150px";
 
+            main.style.marginTop = "250px"; //margin
+
 
             break;
         case 2:
             pageTitle.textContent = "About Me";
             pageDescription.innerHTML = `
+
+
+            <div class="slideshow">
 
             
                 <div class="details-box" id="box1">
@@ -82,15 +87,20 @@ function updatePageContent() {
                     
                 </div>
 
+
+</div>
+                
+
                 
                 
             `;
             backBtn.style.display = "inline-block"; // Show the back button
             nextBtn.style.display = "inline-block"; // Show the next button
             nextBtn.textContent = "Next"; // Change the text of the next button
+            main.style.marginTop = "100px"; //margin
 
-            backBtn.style.marginTop = "550px"; // Show the back button
-            nextBtn.style.marginTop = "550px";
+            backBtn.style.marginTop = "400px"; // Show the back button
+            nextBtn.style.marginTop = "400px";
 
 
             break;
@@ -101,7 +111,7 @@ function updatePageContent() {
 
 
 
-                <div class="details-box">
+                <div class="details-box" id="box1">
     <h2>Softwares</h2>
     <p><img src="photoshop-logo.png" alt="Photoshop Logo"> Photoshop</p>
     <p><img src="figma-logo.png" alt="Figma Logo"> Figma</p>
@@ -111,7 +121,7 @@ function updatePageContent() {
 </div>
 
 
-<div class="details-box">
+<div class="details-box" id="box2">
             <h2>Website Links</h2>
             <p><a href="http://www.williamclarence.co.in/" target="_blank">http://www.williamclarence.co.in/</a></p>
             <p><a href="https://revanthreddy123.github.io/neoframes/" target="_blank">https://revanthreddy123.github.io/neoframes/</a></p>
@@ -124,9 +134,11 @@ function updatePageContent() {
             backBtn.style.display = "inline-block"; // Show the back button
             nextBtn.style.display = "inline-block"; // Show the next button
             nextBtn.textContent = "Next"; // Change the text of the next button
+
+            main.style.marginTop = "100px"; //margin
             
-            backBtn.style.marginTop = "550px"; // Show the back button
-            nextBtn.style.marginTop = "550px";
+            backBtn.style.marginTop = "400px"; // Show the back button
+            nextBtn.style.marginTop = "400px";
             
             break;
         case 4:
@@ -147,9 +159,11 @@ function updatePageContent() {
             nextBtn.style.display = "none"; // Hide the next button
             nextBtn.textContent = "Next"; // Change the text of the next button
 
+            main.style.marginTop = "100px"; //margin
 
-            backBtn.style.marginTop = "550px"; // Show the back button
-            nextBtn.style.marginTop = "550px";
+
+            backBtn.style.marginTop = "400px"; // Show the back button
+            nextBtn.style.marginTop = "400px";
 
 
 
