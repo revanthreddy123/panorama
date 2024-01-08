@@ -10,6 +10,8 @@ body, html {
 }
 
 
+
+
 /*header*/
 
 
@@ -56,6 +58,7 @@ body, html {
 
 /* Common styles for all sections */
 .content {
+    position: absolute;
     margin-top: 250px;
     padding-bottom: 10px;
     text-align: center;
@@ -71,7 +74,7 @@ body, html {
 }
 .content2 {
     position: absolute;
-    margin-top: 300px;
+    margin-top: 100px;
     text-align: center;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
@@ -136,10 +139,11 @@ p {
 
 /* Hero section styles */
 .hero {
+    display: flex;
    
     height: 100%; /* Set height to 100% of the viewport height */
-    display: flex;
     justify-content: center;
+    align-content: center;
    
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), rgba(0, 0, 0, 0.2); /* Gradient for enhanced visibility */
 }
@@ -215,7 +219,7 @@ body {
 
 button {
     display: inline-block;
-    margin-top: 150px;
+    margin-top: 350px;
     padding: 10px 20px;
     background-color: transparent;
     color: #fff;
@@ -416,12 +420,16 @@ button:hover {
     }
     
     .slideshow {
-        position: center;
+        position: absolute;
         float: left;
 
         align-items: left;
     }
 
+    .content2 {
+        margin-top: 100px;
+        
+    }
 
 
     

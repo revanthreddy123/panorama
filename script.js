@@ -39,8 +39,8 @@ function updatePageContent() {
             backBtn.style.display = "none"; // Hide the back button
             nextBtn.style.display = "block"; // Show the next button
             
-            backBtn.style.marginTop = "150px"; // Show the back button
-            nextBtn.style.marginTop = "150px";
+            backBtn.style.marginTop = "350px"; // Show the back button
+            nextBtn.style.marginTop = "350px";
 
             main.style.marginTop = "250px"; //margin
 
@@ -99,8 +99,8 @@ function updatePageContent() {
             nextBtn.textContent = "Next"; // Change the text of the next button
             main.style.marginTop = "100px"; //margin
 
-            backBtn.style.marginTop = "400px"; // Show the back button
-            nextBtn.style.marginTop = "400px";
+            backBtn.style.marginTop = "550px"; // Show the back button
+            nextBtn.style.marginTop = "550px";
 
 
             break;
@@ -137,8 +137,8 @@ function updatePageContent() {
 
             main.style.marginTop = "100px"; //margin
             
-            backBtn.style.marginTop = "400px"; // Show the back button
-            nextBtn.style.marginTop = "400px";
+            backBtn.style.marginTop = "550px"; // Show the back button
+            nextBtn.style.marginTop = "550px";
             
             break;
         case 4:
@@ -162,8 +162,8 @@ function updatePageContent() {
             main.style.marginTop = "100px"; //margin
 
 
-            backBtn.style.marginTop = "400px"; // Show the back button
-            nextBtn.style.marginTop = "400px";
+            backBtn.style.marginTop = "550px"; // Show the back button
+            nextBtn.style.marginTop = "550px";
 
 
 
